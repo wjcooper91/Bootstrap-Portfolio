@@ -8,9 +8,14 @@ body {
   width:100%;
 }
 
+.nav-index {
+  width:100%;
+}
+
 .button {
   display:flex;
   justify-content: center;
+  padding:0 5px;
 }
 
 
@@ -66,6 +71,15 @@ content {
 
 .aboutme {
   text-align:center;
+  width:100%;
+  color:#4aaaa5;
+  font-weight:900;
+  font-size:26px;
+  padding-bottom:15px;
+}
+
+.aboutme-contact {
+  text-align:left;
   width:100%;
   color:#4aaaa5;
   font-weight:900;
@@ -141,14 +155,17 @@ button:hover {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .bio {
   padding:30px 0;
+}
+
+.bio img {
 }
 
 .info {
   padding-right: 20px;
 }
+
 
 /* --  Portfolio -- */
 
@@ -163,6 +180,14 @@ button:hover {
   padding:80px;
   border:2px solid #ddd;
   margin:20px 5px;
+}
+
+.grow-parent {
+  display: flex;
+  height: 100%;
+}
+.image-grow {
+  flex-grow: 1;
 }
 
 /* -- Contact Form -- */
